@@ -13,7 +13,7 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
         </div>
 
         <div class="flex justify-center xs:hidden mt-16 lg:mt-24 md:mt-16">
-            <doubleChevron class="border border-gray-700 rounded-xl scroll-down-arrows" />
+            <doubleChevron class="border border-gray-700 cursor-pointer rounded-xl scroll-down-arrows" />
         </div>
     </div>
 </template>

@@ -5,3 +5,9 @@
     </AppLayout>
   </div>
 </template>
+
+<style>
+body {
+  font-family: 'Poppins';
+}
+</style>
