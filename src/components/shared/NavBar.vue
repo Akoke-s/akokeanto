@@ -8,7 +8,7 @@ import mailSvg from './svgs/mailSvg.vue';
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-1 hidden md:flex md:items-center md:gap-12">
                     <router-link class="block text-blue-700" to="/">
-                        thisIsAkoke
+                        Akoke Anto
                     </router-link>
                 </div>
 
@@ -52,12 +52,12 @@ import mailSvg from './svgs/mailSvg.vue';
                             </li>
 
                             <li>
-                                <a
+                                <router-link
                                     class="mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
-                                    href="/"
+                                    to="/contact"
                                 >
-                                <mailSvg class="text-gray-800 lg:hidden" />
-                                </a>
+                                    <mailSvg class="text-gray-800 lg:hidden" />
+                                </router-link>
                                 
                             </li>
                         </ul>
@@ -65,12 +65,12 @@ import mailSvg from './svgs/mailSvg.vue';
 
                     <div class="flex items-center gap-4">
                         <div class="sm:flex sm:gap-4 hidden md:hidden sm:hidden lg:block">
-                            <a
+                            <router-link
                                 class="mx-2 font-bold text-gray-600 text-xs uppercase hover:bg-blue-800 rounded-md bg-blue-700 px-5 py-2.5 text-white shadow"
-                                href="/"
+                                to="/contact"
                             >
                                 Contact Me
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>

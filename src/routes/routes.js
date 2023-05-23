@@ -7,5 +7,13 @@ export const routes = [
         meta: {
             name: "Software Developer from Lagos, Nigeria",
         },
+    },
+    {
+        path: '/contact',
+        name: 'contact',
+        component: () => import('@/views/ContactView.vue'),
+        meta: {
+            name: "Contact Me",
+        }
     }
 ]

@@ -21,7 +21,7 @@ import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">Twitter</span>
-                        <twitterSvg />
+                        <twitterSvg class="text-white" />
                     </a>
                 </li>
 
@@ -33,7 +33,7 @@ import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">GitHub</span>
-                        <githubSvg />
+                        <githubSvg class="text-white" />
                     </a>
                 </li>
 
@@ -45,7 +45,7 @@ import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">LinkedIn</span>
-                        <linkedinSvg />
+                        <linkedinSvg class="text-white" />
                     </a>
                 </li>
 
