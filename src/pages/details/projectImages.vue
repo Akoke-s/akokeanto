@@ -1,0 +1,6 @@
+<template>
+    <div class="p-5 md:p-10 bg-blue-900 text-white w-full rounded-lg shadow-lg mb-8 mt-8">
+        <img src="https://s3-alpha-sig.figma.com/img/c95d/ec89/16e4fde7e6c393a8dc64b671edaae938?Expires=1685923200&Signature=PRbCHAothBaoshUiRjnVF9Ra04pzar~EaZtR3QBuSN8tWIqXkglMyO5kvCdafxmBjmBQ3d0Y000bTs8Rkj4v0esj2LAvxT805ru0gYcXtzpRjLsvfzmsrgpKu9QIqdQav3KJgRguL30hSPTKZ3-FY2WbC-6eAEc30E9c07xsvys82NuYiWBG66-hr6LyiFcsA~Wa2wT4JFLY4rmCRbgD7SVFl1-aNMNARG74LxTLXbShJF0h4bQMYedrVFIdoX9Om3kEMRXnjMf8O44khgpz04avgZu4eHHVQwHyDVN19OkwInS3ZXVqPxEBFDhCbIdmX6Wp~vKOf6Yr-cvagpS2Hg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="mb-4" align="InstantEnergy">
+        <img src="https://s3-alpha-sig.figma.com/img/9805/051c/bcfb80d50cf34da99d679a1b39766a6e?Expires=1685923200&Signature=KzV00V~7q~U40rFNfogDIzn4nUsc0g3zq-KoXizOTHrH2J3rxq-AruUR6u128V6~4MM5Bk5RPRTV2nsBsDjFZRaU7go6~jDP34Jva~Lvv6DqUXxvYP3gQp8XnrXt2H5~w4-s0nQuyDFLKcHOz1XRkGjkCdrIfyG0Oi1ssEH7Of22LwklGMeBcAsnjMF6EtkmLQXV8ldpyXHAV5MDLaNfmZkyzulN2nUoyB3kzCSQ6Sg0UUlOddoiRbjg7Yx94oyo1M9f~jAKJ4tArsWE6qfrbBT5rSymKrK4IsDUssfCGyX5Whre7sFoHF1qDx1I2yschRVaqXJbd7iPEbaaGvvQSQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" class="shadow-lg mb-4" align="InstantEnergy">
+    </div>
+</template>
