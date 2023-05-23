@@ -1,0 +1,84 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "Get OurPass",
+            "stack": [
+                "Vuejs",
+                "Quasar Framework"
+            ],
+            "featured_image": "",
+            "link": "https://ourpass.co",
+            "images": [],
+            "description": "",
+            "slug": "get-ourpass"
+        },
+        {
+            "id": 2,
+            "title": "Rehkee io",
+            "stack": [
+                "Laravel",
+                "Vuejs",
+                "REST API"
+            ],
+            "featured_image": "",
+            "link": "https://rehkee.mrtstaff.com",
+            "images": [],
+            "description": "",
+            "slug": "rehkee"
+        },
+        {
+            "id": 3,
+            "title": "Radah Tech",
+            "stack": [
+                "Vuejs",
+                "UI Design"
+            ],
+            "featured_image": "",
+            "link": "https://test.radahtech.com",
+            "images": [],
+            "description": "",
+            "slug": "radah-tech"
+        },
+        {
+            "id": 4,
+            "title": "Council for the Regulation Of Engineering in Nigeria",
+            "stack": [
+                "Nuxtjs",
+                "UI Design"
+            ],
+            "featured_image": "",
+            "link": "",
+            "images": [],
+            "description": "",
+            "slug": "council-for-the-regulation-of-engineering-in-nigeria"
+        },
+        {
+            "id": 5,
+            "title": "Habi Clothiers",
+            "stack": [
+                "Laravel",
+                "Vuejs",
+                "REST API"
+            ],
+            "featured_image": "",
+            "link": "",
+            "images": [],
+            "description": "",
+            "slug": "habi-clothiers"
+        },
+        {
+            "id": 6,
+            "title": "Ef Waste",
+            "stack": [
+                "Laravel"
+            ],
+            "featured_image": "",
+            "link": "",
+            "images": [],
+            "description": "",
+            "slug": "ef-waste"
+        }
+    ]
+}
+
