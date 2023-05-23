@@ -1,17 +1,10 @@
 <template>
   <div>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <NavBar />
   </div>
 </template>
 
-<script>
-
-export default {
-  name: 'App',
-  components: {
-  }
-}
+<script setup>
+import NavBar from './components/shared/NavBar.vue';
 </script>
 
