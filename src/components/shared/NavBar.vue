@@ -3,7 +3,7 @@ import mailSvg from './svgs/mailSvg.vue';
 </script>
 
 <template>
-    <header aria-label="Site Header" class="bg-white shadow-md">
+    <header aria-label="Site Header" class="bg-white shadow-md sticky top-0 z-30">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-1 hidden md:flex md:items-center md:gap-12">
@@ -66,7 +66,7 @@ import mailSvg from './svgs/mailSvg.vue';
                     <div class="flex items-center gap-4">
                         <div class="sm:flex sm:gap-4 hidden md:hidden sm:hidden lg:block">
                             <a
-                                class="mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800 rounded-md bg-blue-700 px-5 py-2.5 text-white shadow"
+                                class="mx-2 font-bold text-gray-600 text-xs uppercase hover:bg-blue-800 rounded-md bg-blue-700 px-5 py-2.5 text-white shadow"
                                 href="/"
                             >
                                 Contact Me
