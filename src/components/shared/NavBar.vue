@@ -1,26 +1,27 @@
 <script setup>
+import mailSvg from './svgs/mailSvg.vue';
 </script>
 
 <template>
-    <header aria-label="Site Header" class="bg-white shadow-md">
+    <header aria-label="Site Header" class="bg-white shadow-md sticky top-0 z-30">
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
-                <div class="flex-1 md:flex md:items-center md:gap-12">
-                    <a class="block text-blue-600" href="/">
-                        thisIsAkoke
-                    </a>
+                <div class="flex-1 hidden md:flex md:items-center md:gap-12">
+                    <router-link class="block text-blue-700" to="/">
+                        Akoke Anto
+                    </router-link>
                 </div>
 
                 <div class="md:flex md:items-center md:gap-12">
-                    <nav aria-label="Site Nav" class="hidden md:block">
+                    <nav aria-label="Site Nav" class="md:block flex items-center justify-center mx-auto">
                         <ul class="flex items-center gap-6 text-sm">
                             <li>
-                                <a
-                                    class=" mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
-                                    href="/"
+                                <router-link
+                                    class="mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
+                                    to="/"
                                 >
                                     Home
-                                </a>
+                                </router-link>
                             </li>
 
                             <li>
@@ -43,44 +44,33 @@
 
                             <li>
                                 <a
-                                    class=" mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
+                                    class="mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
                                     href="/"
                                 >
                                     Experience
                                 </a>
                             </li>
+
+                            <li>
+                                <router-link
+                                    class="mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
+                                    to="/contact"
+                                >
+                                    <mailSvg class="text-gray-800 lg:hidden" />
+                                </router-link>
+                                
+                            </li>
                         </ul>
                     </nav>
 
                     <div class="flex items-center gap-4">
-                        <div class="sm:flex sm:gap-4">
-                            <a
-                                class="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow"
-                                href="/"
+                        <div class="sm:flex sm:gap-4 hidden md:hidden sm:hidden lg:block">
+                            <router-link
+                                class="mx-2 font-bold text-gray-600 text-xs uppercase hover:bg-blue-800 rounded-md bg-blue-700 px-5 py-2.5 text-white shadow"
+                                to="/contact"
                             >
                                 Contact Me
-                            </a>
-                        </div>
-
-                        <div class="block md:hidden">
-                            <button
-                            class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75"
-                            >
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                class="h-5 w-5"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor"
-                                stroke-width="2"
-                            >
-                                <path
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                d="M4 6h16M4 12h16M4 18h16"
-                                />
-                            </svg>
-                            </button>
+                            </router-link>
                         </div>
                     </div>
                 </div>
