@@ -7,7 +7,7 @@
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-1 md:flex md:items-center md:gap-12">
-                    <router-link class="block text-blue-600" to="/">
+                    <router-link class="block text-blue-700" to="/">
                         thisIsAkoke
                     </router-link>
                 </div>
@@ -56,7 +56,7 @@
                     <div class="flex items-center gap-4">
                         <div class="sm:flex sm:gap-4">
                             <a
-                                class="rounded-md bg-blue-600 px-5 py-2.5 text-sm font-medium text-white shadow"
+                                class="rounded-md bg-blue-700 px-5 py-2.5 text-sm font-medium text-white shadow"
                                 href="/"
                             >
                                 Contact Me
