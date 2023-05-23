@@ -1,8 +1,9 @@
 <script setup>
+import topBanner from '@/components/home/topBanner.vue';
 </script>
 
 <template>
     <div>
-        <h1>My home page</h1>
+        <topBanner />
     </div>
 </template>

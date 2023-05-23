@@ -57,7 +57,7 @@ import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">GitHub</span>
-                        <mailSvg />
+                        <mailSvg class="text-white" />
                     </a>
                 </li>
             </ul>
