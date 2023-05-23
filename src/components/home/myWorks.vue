@@ -20,7 +20,7 @@
                             <p class="text-xs text-white">
                                 Since the beginning of my tech career I have blah blah blah
                             </p>
-                            <button class="bg-blue-700 text-white py-2 px-5 rounded-lg">View</button>
+                            <router-link to="/details" class="bg-blue-700 text-white py-2 px-5 rounded-lg">View</router-link>
                         </div>
                     </article>
                 </div>

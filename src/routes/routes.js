@@ -15,5 +15,13 @@ export const routes = [
         meta: {
             name: "Contact Me",
         }
+    },
+    {
+        path: '/details',
+        name: 'details',
+        component: () => import('@/views/DetailsView.vue'),
+        meta: {
+            name: "Detail page"
+        }
     }
 ]
