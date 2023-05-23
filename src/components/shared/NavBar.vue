@@ -1,4 +1,5 @@
 <script setup>
+
 </script>
 
 <template>
@@ -6,21 +7,21 @@
         <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
             <div class="flex h-16 items-center justify-between">
                 <div class="flex-1 md:flex md:items-center md:gap-12">
-                    <a class="block text-blue-600" href="/">
+                    <router-link class="block text-blue-600" to="/">
                         thisIsAkoke
-                    </a>
+                    </router-link>
                 </div>
 
                 <div class="md:flex md:items-center md:gap-12">
                     <nav aria-label="Site Nav" class="hidden md:block">
                         <ul class="flex items-center gap-6 text-sm">
                             <li>
-                                <a
+                                <router-link
                                     class=" mx-2 font-bold text-gray-600 text-xs uppercase hover:text-gray-800"
-                                    href="/"
+                                    to="/"
                                 >
                                     Home
-                                </a>
+                                </router-link>
                             </li>
 
                             <li>
