@@ -17,7 +17,7 @@ export const routes = [
         }
     },
     {
-        path: '/details',
+        path: '/details/:slug',
         name: 'details',
         component: () => import('@/views/DetailsView.vue'),
         meta: {

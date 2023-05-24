@@ -20,19 +20,3 @@ import infoHeader from '@/pages/details/infoHeader.vue';
         <projectPagination />
     </div>
 </template>
-
-<style scoped>
-.project-title {
-    color: #000000;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.pagination {
-    width: 340px;
-    height: 87px;
-    margin-top: 20px !important;
-}
-</style>

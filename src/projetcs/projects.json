@@ -2,14 +2,17 @@
     "projects": [
         {
             "id": 1,
-            "title": "Get OurPass",
+            "title": "OurPass Inc.",
             "stack": [
                 "Vuejs",
                 "Quasar Framework"
             ],
-            "featured_image": "",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
             "link": "https://ourpass.co",
-            "images": [],
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943009/portfolio/ourpass1_ugb6qx.png"
+            ],
             "description": "",
             "slug": "get-ourpass"
         },
@@ -21,9 +24,12 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
             "link": "https://rehkee.mrtstaff.com",
-            "images": [],
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943078/portfolio/rehkeeio_zde38d.png"
+            ],
             "description": "",
             "slug": "rehkee"
         },
@@ -34,9 +40,12 @@
                 "Vuejs",
                 "UI Design"
             ],
-            "featured_image": "",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
             "link": "https://test.radahtech.com",
-            "images": [],
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah1_qdvvvq.png"
+            ],
             "description": "",
             "slug": "radah-tech"
         },
@@ -47,37 +56,43 @@
                 "Nuxtjs",
                 "UI Design"
             ],
-            "featured_image": "",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
             "link": "",
-            "images": [],
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942919/portfolio/coren2_eyxoqf.png"
+            ],
             "description": "",
             "slug": "council-for-the-regulation-of-engineering-in-nigeria"
         },
         {
             "id": 5,
+            "title": "Ef Waste",
+            "stack": [
+                "Laravel"
+            ],
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
+            "link": "",
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942959/portfolio/efwaste1_tketrg.png"
+            ],
+            "description": "",
+            "slug": "ef-waste"
+        },
+        {
+            "id": 6,
             "title": "Habi Clothiers",
             "stack": [
                 "Laravel",
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "",
+            "featured_image": null,
             "link": "",
             "images": [],
             "description": "",
             "slug": "habi-clothiers"
-        },
-        {
-            "id": 6,
-            "title": "Ef Waste",
-            "stack": [
-                "Laravel"
-            ],
-            "featured_image": "",
-            "link": "",
-            "images": [],
-            "description": "",
-            "slug": "ef-waste"
         }
     ]
 }
