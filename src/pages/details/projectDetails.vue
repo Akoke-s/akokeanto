@@ -1,9 +1,19 @@
 <script setup>
-
+import { ref, provide } from 'vue'
+import { useRoute } from 'vue-router'
 import projectPagination from '@/components/shared/projectPagination.vue';
 import projectOverview from '@/pages/details/projectOverview.vue';
 import projectImages from '@/pages/details/projectImages.vue';
 import infoHeader from '@/pages/details/infoHeader.vue';
+import projectsData from '../../projetcs/projects.json'
+
+const route = useRoute();
+const project = ref({})
+
+project.value = projectsData?.projects.find(project => project.slug === route.params.slug)
+
+provide('project', project?.value)
+
 </script>
 
 <template>

@@ -15,7 +15,7 @@ import rightArrowSvg from '@/components/shared/svgs/rightArrowSvg.vue'
         <a href="#" class="px-4 py-2 mx-1 text-gray-800 bg-white">
             <div class="flex items-center -mx-1">
                 <span class="mx-1">
-                    Next project
+                    Next Project
                 </span>
                 <rightArrowSvg class="mx-1 rtl:-scale-x-100" />
             </div>

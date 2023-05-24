@@ -2,18 +2,9 @@
 import { ref } from 'vue';
 import projectsData from '../../projetcs/projects.json'
 
-const projects = ref({})
+const projects = ref([])
 projects.value = projectsData?.projects
 
-console.log(projects.value)
-
-// const getProjects = async () => {
-//     fetch('/projects/projects.json')
-//         .then((response) => response.json())
-//         .then((json) => console.log(json));
-// }
-
-// getProjects()
 </script>
 
 <template>
