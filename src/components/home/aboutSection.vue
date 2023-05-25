@@ -4,7 +4,7 @@ import bookSvg from '../shared/svgs/bookSvg.vue'
 </script>
 
 <template>
-    <div class="bg-blue-700 mb-6">
+    <div class="bg-blue-700 mb-6" id="about">
         <div class="text-white mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
             <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-4xl text-white">
                 About Me

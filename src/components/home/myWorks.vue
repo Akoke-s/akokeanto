@@ -24,7 +24,7 @@ getProjects()
 </script>
 
 <template>
-    <div class="bg-white mb-6">
+    <div class="bg-white mb-6" id="works">
         <div class="mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
             <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-4xl">
                 My Works

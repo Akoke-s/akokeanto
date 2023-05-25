@@ -13,7 +13,9 @@ import contactArea from '@/components/home/contactArea.vue';
         <aboutSection />
         <myWorks />
         <companyWorked />
-        <myExperiences />
+        <div class="bg-blue-700 mb-6 pb-12" id="experience">
+            <myExperiences />
+        </div>
         <contactArea />
     </div>
 </template>
