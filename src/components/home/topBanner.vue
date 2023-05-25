@@ -3,7 +3,7 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
 </script>
 <template>
     <div class="container px-6 py-16 mx-auto text-center h-screen">
-        <div class="max-w-lg mx-auto">
+        <div class="max-w-xl mx-auto">
             <h1 class="text-5xl font-bold text-gray-800 lg:text-4xl">Full Stack Developer & Mentor</h1>
             <p class="mt-4 text-gray-800 text-sm">I enjoy what I do and create elegantly simple things using code.</p>
         </div>

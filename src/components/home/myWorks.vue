@@ -1,4 +1,5 @@
 <script setup>
+import visitLink from '../shared/svgs/visitLink.vue';
 import { ref } from 'vue';
 // import projectsData from '../../projects/projects.json'
 // import { useRoute } from 'vue-router';
@@ -45,11 +46,19 @@ getProjects()
                             class="h-56 w-full object-cover"
                             v-else
                         />
-                        <div class="absolute h-full w-full px-4 bg-blue-300 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-5 group-hover:opacity-100 transition-all duration-300">
+                        <div class="absolute h-full w-full px-4 bg-blue-950 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-5 group-hover:opacity-100 transition-all duration-300">
                             <p class="text-lg text-white mb-4">
                                 {{ project?.title }}
                             </p>
-                            <router-link :to="`/details/${project.slug}`" class="bg-blue-700 text-white py-2 px-5 rounded-lg cursor-pointer">View</router-link>
+                            <router-link 
+                                :to="`/details/${project.slug}`" 
+                                class="border border-blue-700 bg-transparent text-white py-2 px-5 rounded-lg cursor-pointer flex items-center text-center gap-2"
+                            >
+                                <p>
+                                    <visitLink />
+                                </p>
+                                <p>View website</p>
+                            </router-link>
                         </div>
                     </article>
                 </div>

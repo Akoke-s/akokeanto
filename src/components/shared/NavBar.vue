@@ -28,8 +28,8 @@ watch(
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 text-center items-center">
-                            <router-link to="/" class="block mx-2 lg:hidden text-blue-700 uppercase">Akoke Anto</router-link>
-                            <router-link to="/" class="hidden mx-2 lg:block text-blue-700 uppercase">Akoke Anto</router-link>
+                            <router-link to="/" class="block mx-2 lg:hidden text-blue-700">Akoke</router-link>
+                            <router-link to="/" class="hidden mx-2 lg:block text-blue-700">Akoke</router-link>
                             <!-- <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
                             <!-- <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
             
@@ -70,7 +70,7 @@ watch(
                         <div class="relative ml-3">
                             <div>
                                 <router-link
-                                    class="mx-2 font-bold uppercase text-gray-600 text-xs hover:bg-blue-800 rounded-md bg-blue-700 px-4 py-2 text-white shadow"
+                                    class="mx-2 font-bold text-gray-600 text-xs hover:bg-blue-800 rounded-md bg-blue-700 px-4 py-2 text-white shadow cursor-pointer"
                                     to="/contact"
                                 >
                                         Contact Me
