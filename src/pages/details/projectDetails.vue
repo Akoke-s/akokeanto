@@ -5,8 +5,8 @@ import projectPagination from '@/components/shared/projectPagination.vue';
 import projectOverview from '@/pages/details/projectOverview.vue';
 import projectImages from '@/pages/details/projectImages.vue';
 import infoHeader from '@/pages/details/infoHeader.vue';
-import projectsData from '../../projects/projects.json'
-// import { getProject } from '@/projects'
+import projectsData from '../../resources/projects.json'
+// import { getProject } from '@/resources'
 
 export default {
     components: {
