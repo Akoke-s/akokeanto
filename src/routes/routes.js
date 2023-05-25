@@ -6,6 +6,7 @@ export const routes = [
         component: () => import('@/views/HomeView.vue'),
         meta: {
             name: "Software Developer from Lagos, Nigeria",
+            projects: {}
         },
     },
     {

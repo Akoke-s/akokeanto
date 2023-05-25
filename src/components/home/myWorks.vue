@@ -1,10 +1,26 @@
 <script setup>
 import { ref } from 'vue';
-import projectsData from '../../projetcs/projects.json'
+// import projectsData from '../../projects/projects.json'
+// import { useRoute } from 'vue-router';
+import localforage from 'localforage';
+// const route = useRoute()
 
-const projects = ref([])
-projects.value = projectsData?.projects
+// console.log("route: " + route.meta.projects)
+// const projects = ref([])
+const newProjects = ref([])
+// projects.value = projectsData?.projects
 
+const getProjects = async () => {
+    try {
+        const value = await localforage.getItem('projects');
+        newProjects.value = value
+        console.log("my works", newProjects.value);
+    } catch (err) {
+        console.log(err);
+    }
+}
+
+getProjects()
 </script>
 
 <template>
@@ -15,7 +31,7 @@ projects.value = projectsData?.projects
             </p>
 
             <div class="grid gap-4 grid-cols-3 mt-8">
-                <div class="h-fit group" v-for="(project, idx) in projects" :key="idx">
+                <div class="h-fit group" v-for="(project, idx) in newProjects" :key="idx">
                     <article class="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                         <img
                             :alt="project.slug"

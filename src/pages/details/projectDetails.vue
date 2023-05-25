@@ -1,32 +1,104 @@
-<script setup>
-import { ref, provide } from 'vue'
-import { useRoute } from 'vue-router'
+<script>
+import { computed } from 'vue'
+
 import projectPagination from '@/components/shared/projectPagination.vue';
 import projectOverview from '@/pages/details/projectOverview.vue';
 import projectImages from '@/pages/details/projectImages.vue';
 import infoHeader from '@/pages/details/infoHeader.vue';
-import projectsData from '../../projetcs/projects.json'
+import projectsData from '../../projects/projects.json'
+// import { getProject } from '@/projects'
 
-const route = useRoute();
-const project = ref({})
+export default {
+    components: {
+        projectPagination,
+        projectOverview,
+        projectImages,
+        infoHeader,
+    },
+    data() {
+        return {
+            loading: false,
+            project: null,
+            projects: projectsData?.projects
+        }
+    },
 
-project.value = projectsData?.projects.find(project => project.slug === route.params.slug)
+    created() {
+        this.getTheProject()
+        this.$watch(
+            () => this.$route.params,
+            (toParams, previousParams) => {
+                // react to route changes...
+                if(toParams !== previousParams) {
+                    this.getTheProject()
+                }
+            }
+        )
+    },
 
-provide('project', project?.value)
+    computed: {
+        getPrevious() {
+            let index = this.projects.findIndex(pject => pject.slug === this.$route.params.slug)
+            return index > 0 ? this.projects[index - 1] : this.projects[this.projects.length - 1]
+        },
+
+        getNext() {
+            
+            let index = this.projects.findIndex(pject => pject.slug === this.$route.params.slug)
+            let nextIndex = this.projects[index + 1]
+            if(index == 0) {
+                return nextIndex
+            } else if (index > 0 && index < this.projects.length - 1) {
+                return nextIndex
+            }
+            return this.projects[0]
+        }
+    },
+
+    methods: {
+        getTheProject() {
+            this.project = this.projects.find(project => project.slug === this.$route.params.slug)
+        },
+
+        gotoPrevious() {
+            if(this.getPrevious != 0) {
+                this.$router.push(`/details/${this.getPrevious.slug}`)
+            }
+        },
+
+        gotoNext() {
+            if(this.getNext != 0) {
+                this.$router.push(`/details/${this.getNext.slug}`)
+            }
+        }
+    },
+
+    provide() {
+        return {
+            project: computed(() => this.project)
+        }
+    }
+};
 
 </script>
-
 <template>
     <div class="container mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8 bg-white">
-        
         <div class="leading-relaxed text-gray-800 mb-6">
             <infoHeader />
             
-            <projectOverview />
+            <projectOverview :singleProject="project" />
 
             <projectImages />
         </div>
 
-        <projectPagination />
+        <projectPagination 
+            :items="projects" 
+            :itemsPerPage="1"
+            @previous-page="gotoPrevious()"
+            @next-page="gotoNext()"
+            :prev="getPrevious"
+            :next="getNext"
+            :project="project"
+        />
     </div>
 </template>
