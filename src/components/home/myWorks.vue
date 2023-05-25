@@ -36,13 +36,13 @@ getProjects()
                         <img
                             :alt="project.slug"
                             :src="project?.featured_image"
-                            class="h-56 w-full object-fit"
+                            class="h-56 w-full object-cover"
                             v-if="project?.featured_image != null"
                         />
                         <img
                             :alt="project.slug"
                             src="https://s3-alpha-sig.figma.com/img/4ea1/2e3b/593753e5974a819f4c21db6438adfd86?Expires=1685923200&Signature=WNrpqjknJimcklHLo6k5kFRPr9b-wA0si0Iy5pzQG6DlhR3DovMvzFl4P-3Okszq7UkYH5OvlSmjbVEkjKCg4HKIV8HedZZhmPHMvitrszKfMFrZWGJhN2QA~EyHFUU~GFtDGmC6LE2LwD9BbRdrEDWzCSIGcam03Vvop4cdKp59K15-LJZDIiL0aXhtFqqL1C2T4MMORxsbAygN1IkWzyNiCxi~1o8PRyA3H38aOD4eF3IxfQ9JOJTxEHXoKEk3NLM2TUo1YLEpqvOAg~Mh7wfF7IPjAqUwkQa0V1ZnJeKRF08Ypwvjf9241asPIor0XSIK~F2bvc8Ion1hn6CzyA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
-                            class="h-56 w-full object-fit"
+                            class="h-56 w-full object-cover"
                             v-else
                         />
                         <div class="absolute h-full w-full px-4 bg-blue-300 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-5 group-hover:opacity-100 transition-all duration-300">
