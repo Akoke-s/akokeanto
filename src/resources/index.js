@@ -17,7 +17,7 @@ export async function setItems() {
   let projects = projectsData?.projects;
   return localforage.setItem('projects', projects).then(function (value) {
       // Do other things once the value has been saved.
-      console.log(value);
+      // console.log(value);
       return value;
   }).catch(function(err) {
       // This code runs if there were any errors

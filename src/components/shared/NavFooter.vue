@@ -3,6 +3,9 @@ import githubSvg from "@/components/shared/svgs/githubSvg.vue"
 import twitterSvg from "@/components/shared/svgs/twitterSvg.vue"
 import mailSvg from "@/components/shared/svgs/mailSvg.vue"
 import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
+
+const date = new Date().getFullYear()
+
 </script>
 
 <template>
@@ -13,57 +16,57 @@ import linkedinSvg from "@/components/shared/svgs/linkedinSvg.vue"
             </p>
 
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
-                <li class="border border-white rounded-full p-2">
+                <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
-                        href="/"
+                        href="https://twitter.com/Iam_Veecktor"
                         rel="noreferrer"
                         target="_blank"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">Twitter</span>
-                        <twitterSvg class="text-white" />
+                        <twitterSvg class="text-white hover:text-blue-600" />
                     </a>
                 </li>
 
-                <li class="border border-white rounded-full p-2">
+                <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
-                        href="/"
+                        href="https://github.com/antoHero"
                         rel="noreferrer"
                         target="_blank"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">GitHub</span>
-                        <githubSvg class="text-white" />
+                        <githubSvg class="text-white hover:text-blue-600" />
                     </a>
                 </li>
 
-                <li class="border border-white rounded-full p-2">
+                <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
-                        href="/"
+                        href="https://linkedin.com/in/akoke-anto"
                         rel="noreferrer"
                         target="_blank"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">LinkedIn</span>
-                        <linkedinSvg class="text-white" />
+                        <linkedinSvg class="text-white hover:text-blue-600" />
                     </a>
                 </li>
 
-                <li class="border border-white rounded-full p-2">
+                <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
-                        href="/"
+                        href="https://github.com/antoHero"
                         rel="noreferrer"
                         target="_blank"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
-                    <span class="sr-only">GitHub</span>
-                        <mailSvg class="text-white" />
+                    <span class="sr-only">Email</span>
+                        <mailSvg class="text-white hover:text-blue-600" />
                     </a>
                 </li>
             </ul>
 
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-white">
-                &copy; 2023, antoakoke.com 
+                &copy; {{ date }}, antoakoke.com 
             </p>
         </div>
     </footer>

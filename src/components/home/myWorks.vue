@@ -14,7 +14,7 @@ const getProjects = async () => {
     try {
         const value = await localforage.getItem('projects');
         newProjects.value = value
-        console.log("my works", newProjects.value);
+        
     } catch (err) {
         console.log(err);
     }

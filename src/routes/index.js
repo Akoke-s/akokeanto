@@ -17,7 +17,6 @@ const router = createRouter({
 router.beforeResolve(async to => {
     if (to.path === '/') {
         to.meta.projects = await getProjects()
-        console.log("let me see something: " + to.meta.projects)
     }
 })
 
