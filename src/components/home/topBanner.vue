@@ -12,9 +12,13 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
             <img class="object-cover rounded-full h-80 w-80" src="https://images.unsplash.com/photo-1570158268183-d296b2892211?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80" />
         </div>
 
-        <div class="flex justify-center xs:hidden mt-12 lg:mt-16 md:mt-12">
+        <router-link 
+            to="/#about" 
+            v-scroll-to="'#about'" 
+            class="flex justify-center xs:hidden mt-12 lg:mt-16 md:mt-12"
+        >
             <doubleChevron class="border border-gray-700 cursor-pointer rounded-xl scroll-down-arrows" />
-        </div>
+        </router-link>
     </div>
 </template>
 

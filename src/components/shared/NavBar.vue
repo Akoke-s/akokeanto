@@ -28,35 +28,35 @@ watch(
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 text-center items-center">
-                            <p class="block lg:hidden text-blue-700 uppercase">Akoke Anto</p>
-                            <p class="hidden lg:block text-blue-700 uppercase">Akoke Anto</p>
+                            <router-link to="/" class="block mx-2 lg:hidden text-blue-700 uppercase">Akoke Anto</router-link>
+                            <router-link to="/" class="hidden mx-2 lg:block text-blue-700 uppercase">Akoke Anto</router-link>
                             <!-- <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
                             <!-- <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
             
                         </div>
-                        <div class="hidden sm:ml-6 sm:block">
+                        <div class="hidden sm:ml-4 sm:block">
                             <div class="flex space-x-4">
                                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                                 <router-link
-                                    class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
+                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
                                     to="/"
                                 >
                                     Home
                                 </router-link>
                                 <router-link
-                                    class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
+                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
                                     to="/#about" v-scroll-to="'#about'"
                                 >
-                                    About Me
+                                    About
                                 </router-link>
                                 <router-link
-                                    class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
+                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
                                     to="/#works" v-scroll-to="'#works'"
                                 >
-                                    My Works
+                                    Work
                                 </router-link>
                                 <router-link
-                                    class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
+                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
                                     to="/#experience" 
                                     v-scroll-to="'#experience'"
                                 >
@@ -70,7 +70,7 @@ watch(
                         <div class="relative ml-3">
                             <div>
                                 <router-link
-                                    class="mx-2 font-bold text-gray-600 text-xs uppercase hover:bg-blue-800 rounded-md bg-blue-700 px-5 py-2.5 text-white shadow"
+                                    class="mx-2 font-bold uppercase text-gray-600 text-xs hover:bg-blue-800 rounded-md bg-blue-700 px-4 py-2 text-white shadow"
                                     to="/contact"
                                 >
                                         Contact Me
@@ -86,7 +86,7 @@ watch(
                 <div class="space-y-1 px-2 pb-3 pt-2">
                     <router-link 
                         to="/" 
-                        class="bg-blue-700 text-white hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase" 
+                        class="bg-blue-700 text-white hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium" 
                         aria-current="page"
                     >
                         Home
@@ -94,21 +94,21 @@ watch(
                     <router-link 
                         to="/#about"
                         v-scroll-to="'#about'"
-                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
+                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium"
                     >
                         About Me
                     </router-link>
                     <router-link 
                         to="/#works" 
                         v-scroll-to="'#works'" 
-                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
+                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium"
                     >
                         My Works
                     </router-link>
                     <router-link 
                         to="/#experience" 
                         v-scroll-to="'#experience'"
-                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
+                        class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium"
                     >
                         Experience
                     </router-link>
