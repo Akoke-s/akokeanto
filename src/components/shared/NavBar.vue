@@ -45,19 +45,19 @@ watch(
                                 </router-link>
                                 <router-link
                                     class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
-                                    to="#" v-scroll-to="'#about'"
+                                    to="/#about" v-scroll-to="'#about'"
                                 >
                                     About Me
                                 </router-link>
                                 <router-link
                                     class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
-                                    to="#" v-scroll-to="'#works'"
+                                    to="/#works" v-scroll-to="'#works'"
                                 >
                                     My Works
                                 </router-link>
                                 <router-link
                                     class="mx-2 text-gray-600 uppercase hover:text-gray-800 rounded-md px-3 py-2 text-sm font-medium"
-                                    to="#" 
+                                    to="/#experience" 
                                     v-scroll-to="'#experience'"
                                 >
                                     Experience
@@ -92,21 +92,21 @@ watch(
                         Home
                     </router-link>
                     <router-link 
-                        to="#"
+                        to="/#about"
                         v-scroll-to="'#about'"
                         class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
                     >
                         About Me
                     </router-link>
                     <router-link 
-                        to="#" 
+                        to="/#works" 
                         v-scroll-to="'#works'" 
                         class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
                     >
                         My Works
                     </router-link>
                     <router-link 
-                        to="#" 
+                        to="/#experience" 
                         v-scroll-to="'#experience'"
                         class="text-gray-600 hover:bg-blue-600 hover:text-white block rounded-md px-3 py-2 text-sm font-medium uppercase"
                     >
