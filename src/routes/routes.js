@@ -5,7 +5,7 @@ export const routes = [
         name: 'home',
         component: () => import('@/views/HomeView.vue'),
         meta: {
-            name: "Software Developer from Lagos, Nigeria",
+            name: 'Software Developer from Lagos, Nigeria',
             projects: {}
         },
     },
@@ -14,7 +14,7 @@ export const routes = [
         name: 'contact',
         component: () => import('@/views/ContactView.vue'),
         meta: {
-            name: "Contact Me",
+            name: 'Contact Me',
         }
     },
     {
@@ -22,7 +22,15 @@ export const routes = [
         name: 'details',
         component: () => import('@/views/DetailsView.vue'),
         meta: {
-            name: "Detail page"
+            name: 'Detail page'
+        }
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () => import('@/views/NotFoundView.vue'),
+        meta: {
+            name: '404 Not Found'
         }
     }
 ]
