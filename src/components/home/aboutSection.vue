@@ -31,30 +31,32 @@ import bookSvg from '../shared/svgs/bookSvg.vue'
                             Full Stack
                         </h3>
 
-                        <p class="mt-4 text-xs text-gray-800">
+                        <p class="mt-4 text-xs text-gray-800 text-center">
                             I like to code things from scratch, and enjoy bringing ideas to life in the browser.
                         </p>
 
                         <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
-                            My Stack
+                            Languages I understand:
                         </h3>
 
                         <p class="mt-4 text-xs text-gray-800">
-                            HTML, Css, JavaScript, Laravel, PHP, Node.js
+                            PHP, Ruby*, Javascript, Node*
                         </p>
 
                         <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
-                            Dev Tools
+                            Frameworks &amp; Libraries:
                         </h3>
 
                         <p class="mt-4 text-xs text-gray-800">
-                            Vercel
+                            Laravel, Vue, Nuxt, React**, Inertia*, Alpine*, Lumen, Ruby on Rails**
                         </p>
+
+                        <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
+                            API Specs:
+                        </h3>
+
                         <p class="mt-4 text-xs text-gray-800">
-                            GitHub
-                        </p>
-                        <p class="mt-4 text-xs text-gray-800">
-                            Stack Overflow
+                            RESTful, GraphQL
                         </p>
                     </a>
                 </div>
@@ -72,30 +74,30 @@ import bookSvg from '../shared/svgs/bookSvg.vue'
                             Mentorship
                         </h3>
 
-                        <p class="mt-4 text-xs text-gray-800">
+                        <p class="mt-4 text-xs text-gray-800 text-center">
                             I genuinely care about people, and love helping fellow Developers work on their craft.
                         </p>
 
                         <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
-                            Experience
+                            Area:
                         </h3>
 
                         <p class="mt-4 text-xs text-gray-800">
-                            Frontend Development, Backend Development
+                            Frontend Development, Backend Development, Collaboration
                         </p>
 
                         <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
-                            Mentorship Stat.
+                            Mentorship Stats:
                         </h3>
 
                         <p class="mt-4 text-xs text-gray-800">
-                            3+ Years
+                            1+ Year(s)
                         </p>
                         <p class="mt-4 text-xs text-gray-800">
-                            200+ Mentees
+                            20+ Mentees
                         </p>
                         <p class="mt-4 text-xs text-gray-800">
-                            2,060+ Mentorship Sessions.
+                        1000+ Mentorship Hours.
                         </p>
                     </a>
                 </div>
