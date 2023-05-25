@@ -30,7 +30,7 @@ getProjects()
                 My Works
             </p>
 
-            <div class="grid gap-4 grid-cols-3 mt-8">
+            <div class="grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-8">
                 <div class="h-fit group" v-for="(project, idx) in newProjects" :key="idx">
                     <article class="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                         <img
