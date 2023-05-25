@@ -1,11 +1,9 @@
 <script setup>
-import mapPin from '../shared/svgs/mapPin.vue';
-import visitLink from '../shared/svgs/visitLink.vue';
-import closeSvg from '../shared/svgs/closeSvg.vue';
-import plusSvg from '../shared/svgs/plusSvg.vue';
-import { ref } from 'vue';
+import AppAccordion from '../shared/AppAccordion.vue';
+import experiencesData from '../../resources/experiences.json'
+import AccordionContent from '../shared/AccordionContent.vue';
 
-const openTab = ref(false)
+
 </script>
 
 <template>
@@ -18,64 +16,11 @@ const openTab = ref(false)
                 Experience 
             </p>
 
-            <div class="mt-12 space-y-8">
-                <div class="bg-gray-100 rounded-lg text-blue-700">
-                    <button class="flex items-center justify-between w-full p-8" @click="openTab = !openTab">
-                        <h1 class="font-semibold text-2xl">Frontend Developer - OurPass</h1>
-
-                        <span class="text-blue-700">
-                            <closeSvg v-if="openTab" />
-                            <plusSvg v-else/>
-                        </span>
-                    </button>
-
-                    <div v-if="openTab" class="overflow-hidden duration-500 transition-all">
-                        <div class="flex gap-2">
-                            <div class="flex items-center px-8 gap-4">
-                                <mapPin />
-                                <p>Lagos, Nigeria</p>
-                            </div>
-                            <div class="flex items-center px-8 gap-4">
-                                <visitLink />
-                                <p>www.ourpass.com</p>
-                            </div>
-                        </div>
-                        <p class="p-8 text-lg text-blue-700">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?
-                        </p>
-                    </div>
-                    
+            <AppAccordion :items="experiencesData?.experiences">
+                <div class="">
+                    <AccordionContent />
                 </div>
-            </div>
-            <div class="mt-2 space-y-8">
-                <div class="bg-gray-100 rounded-lg text-blue-700">
-                    <button class="flex items-center justify-between w-full p-8" @click="openTab = !openTab">
-                        <h1 class="font-semibold text-2xl">Frontend Developer - OurPass</h1>
-
-                        <span class="text-blue-700">
-                            <closeSvg v-if="openTab" />
-                            <plusSvg v-else/>
-                        </span>
-                    </button>
-
-                    <div v-if="openTab" class="overflow-hidden duration-500 transition-all">
-                        <div class="flex gap-2">
-                            <div class="flex items-center px-8 gap-4">
-                                <mapPin />
-                                <p>Lagos, Nigeria</p>
-                            </div>
-                            <div class="flex items-center px-8 gap-4">
-                                <visitLink />
-                                <p>www.ourpass.com</p>
-                            </div>
-                        </div>
-                        <p class="p-8 text-lg text-blue-700">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eaque nobis, fugit odit omnis fugiat deleniti animi ab maxime cum laboriosam recusandae facere dolorum veniam quia pariatur obcaecati illo ducimus?
-                        </p>
-                    </div>
-                    
-                </div>
-            </div>
+            </AppAccordion>
         </div>
     </div>
 </template>
