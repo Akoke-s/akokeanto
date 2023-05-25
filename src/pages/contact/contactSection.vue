@@ -17,22 +17,18 @@ import githubSvg from '@/components/shared/svgs/githubSvg.vue';
             <div class="mt-6 flex flex-col gap-6 text-sm font-extrabold">
                 <div class="flex gap-4">
                     <mailSvg class="" />
-                    <p>Email</p>
                     <p>akokeanto@gmail.com</p>
                 </div>
                 <div class="flex gap-4">
                     <githubSvg class="" />
-                    <p>GitHub</p>
                     <p>@antoHero</p>
                 </div>
                 <div class="flex gap-4">
                     <linkedinSvg class="" />
-                    <p>LinkedIn</p>
                     <p>@akoke-anto</p>
                 </div>
                 <div class="flex gap-4">
                     <twitterSvg class="" />
-                    <p>Twitter</p>
                     <p>@Iam_veecktor</p>
                 </div>
             </div>
