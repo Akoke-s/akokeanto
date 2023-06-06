@@ -12,7 +12,7 @@ const props = defineProps(['item'])
 <template>
     <Transition>
         <div class="relative overflow-hidden transition-all duration-700">
-            <div class="flex gap-2">
+            <div class="grid grid-cols-1 gap-x-8 gap-y-4 space-y-2">
                 <div class="flex items-center px-8 gap-4">
                     <mapPin />
                     <p>{{ item?.city }}, {{ item?.country }}</p>
