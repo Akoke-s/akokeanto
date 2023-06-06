@@ -77,6 +77,28 @@ export default {
         return {
             project: computed(() => this.project)
         }
+    },
+
+    setup() {
+        const route = useRoute()
+        const project = ref(null)
+        const projects = projectsData?.projects
+        project.value = projects.find(project => project.slug === route.params.slug)
+
+        
+        useHead({
+            title: project.value.title + ' - ' + 'Akoke Victor Anto',
+            meta: [
+                { name: 'description', content: project.value.description},
+                { name: "twitter:card", content: "summary"},
+                { name: "twitter:site", content: "@Iam_Veecktor"},
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { name: "twitter:creator", content: "@Iam_Veecktor"},
+                { name: "og:title", content: `${project.value.title} - Akoke Victor Anto`},
+                { name: "og:description", content: project.value.description},
+                { name: "og:image", content: project.value.featured_image}
+            ]
+        })
     }
 };
 
