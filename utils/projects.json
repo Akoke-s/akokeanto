@@ -8,7 +8,7 @@
                 "Vuejs",
                 "Quasar Framework"
             ],
-            "featured_image": "/assets/ourpass1.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943009/portfolio/ourpass1_ugb6qx.png",
             "link": "https://ourpass.co",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
@@ -26,7 +26,7 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "/assets/rehkeeio.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943078/portfolio/rehkeeio_zde38d.png",
             "link": "https://rehkee.mrtstaff.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
@@ -43,7 +43,7 @@
                 "Vuejs",
                 "UI Design"
             ],
-            "featured_image": "/assets/radah-main.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
             "link": "https://test.radahtech.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
@@ -60,7 +60,7 @@
                 "Nuxtjs",
                 "UI Design"
             ],
-            "featured_image": "/assets/coren1.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
             "link": null,
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
@@ -76,7 +76,7 @@
             "stack": [
                 "Laravel"
             ],
-            "featured_image": "/assets/efwaste.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
             "link": "https://efwaste.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
@@ -94,7 +94,7 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "/assets/main.png",
+            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053905/portfolio/Screenshot_2023-06-06_at_13.16.21_qrsjdm.png",
             "link": null,
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053905/portfolio/Screenshot_2023-06-06_at_13.16.21_qrsjdm.png",
