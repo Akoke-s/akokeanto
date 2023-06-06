@@ -109,6 +109,17 @@ export default {
         return {
             openMenu: ref(false)
         }
-    }
+    },
+    created() {
+        this.$watch(
+            () => this.$route.hash,
+            (toHash, previousHash) => {
+                // react to route changes...
+                if(toHash !== previousHash) {
+                    this.openMenu = false
+                }
+            }
+        )
+    },
 }
 </script>
