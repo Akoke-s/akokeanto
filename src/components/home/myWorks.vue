@@ -1,27 +1,10 @@
 <script setup>
 import visitLink from '../shared/svgs/visitLink.vue';
+import projectsData from '@/resources/projects.json'
 import { ref } from 'vue';
-// import projectsData from '../../projects/projects.json'
-// import { useRoute } from 'vue-router';
-import localforage from 'localforage';
-// const route = useRoute()
-
-// console.log("route: " + route.meta.projects)
-// const projects = ref([])
 const newProjects = ref([])
-// projects.value = projectsData?.projects
+newProjects.value = projectsData?.projects
 
-const getProjects = async () => {
-    try {
-        const value = await localforage.getItem('projects');
-        newProjects.value = value
-        
-    } catch (err) {
-        console.log(err);
-    }
-}
-
-getProjects()
 </script>
 
 <template>
@@ -46,7 +29,7 @@ getProjects()
                             class="h-56 w-full object-cover"
                             v-else
                         />
-                        <div class="absolute h-full w-full px-4 bg-blue-950 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-5 group-hover:opacity-100 transition-all duration-300">
+                        <div class="absolute h-full w-full px-4 bg-blue-950 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                             <p class="text-lg text-white mb-4">
                                 {{ project?.title }}
                             </p>
@@ -57,7 +40,7 @@ getProjects()
                                 <p>
                                     <visitLink />
                                 </p>
-                                <p>View website</p>
+                                <p>View details</p>
                             </router-link>
                         </div>
                     </article>

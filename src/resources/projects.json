@@ -8,7 +8,7 @@
                 "Vuejs",
                 "Quasar Framework"
             ],
-            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943009/portfolio/ourpass1_ugb6qx.png",
+            "featured_image": "images/ourpass/ourpass1.png",
             "link": "https://ourpass.co",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
@@ -26,7 +26,7 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943078/portfolio/rehkeeio_zde38d.png",
+            "featured_image": "images/rehkee/rehkeeio.png",
             "link": "https://rehkee.mrtstaff.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
@@ -43,7 +43,7 @@
                 "Vuejs",
                 "UI Design"
             ],
-            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
+            "featured_image": "images/radah/main.png",
             "link": "https://test.radahtech.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
@@ -60,7 +60,7 @@
                 "Nuxtjs",
                 "UI Design"
             ],
-            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
+            "featured_image": "images/coren/coren1.png",
             "link": null,
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
@@ -76,7 +76,7 @@
             "stack": [
                 "Laravel"
             ],
-            "featured_image": "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
+            "featured_image": "images/efwaste/efwaste.png",
             "link": "https://efwaste.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
@@ -94,9 +94,12 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": null,
+            "featured_image": "images/habi/main.png",
             "link": null,
-            "images": [],
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053905/portfolio/Screenshot_2023-06-06_at_13.16.21_qrsjdm.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053903/portfolio/Screenshot_2023-06-06_at_13.16.01_febhbb.png"
+            ],
             "description": "",
             "slug": "habi-clothiers"
         }

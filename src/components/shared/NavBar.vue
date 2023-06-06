@@ -28,8 +28,8 @@ watch(
                     </div>
                     <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div class="flex flex-shrink-0 text-center items-center">
-                            <router-link to="/" class="block mx-2 lg:hidden text-blue-700">Akoke</router-link>
-                            <router-link to="/" class="hidden mx-2 lg:block text-blue-700">Akoke</router-link>
+                            <router-link to="/" class="block mx-2 lg:hidden text-sm text-blue-700 uppercase">Akoke</router-link>
+                            <router-link to="/" class="hidden mx-2 lg:block text-sm text-blue-700 uppercase">Akoke</router-link>
                             <!-- <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
                             <!-- <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
             

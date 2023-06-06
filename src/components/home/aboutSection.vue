@@ -1,21 +1,32 @@
 <script setup>
 import codeSvg from '../shared/svgs/codeSvg.vue';
-import bookSvg from '../shared/svgs/bookSvg.vue'
+import bookSvg from '../shared/svgs/bookSvg.vue';
+import aboutData from '@/resources/about.json';
+import { ref } from 'vue';
+
+const about = ref({})
+
+about.value = aboutData?.me
+
 </script>
 
 <template>
     <div class="bg-blue-700 mb-6" id="about">
         <div class="text-white mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
-            <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-4xl text-white">
-                About Me
-            </p>
-            <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-white">
+            <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-white text-2xl">
                 Hello, I am Anto. Nice meeting you.
             </p>
-            <p class="mx-auto mt-4 max-w-4xl text-center leading-leading text-white">
-                Since beginning my journey as a freelance developer over 11 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.
-            </p>
+            <div class="mx-auto mt-4 max-w-7xl text-center leading-leading text-white leading-7 mt-8">
+                <p class="">
+                    Back in 2015, I obtained a degree in Computer Science due to my curiosity about how the web works. Fast-forward to today and I’ve had the privilege of building web applications for start-ups including a Neo-global bank, a HR firm and an Ecommerce company.
+                </p>
 
+                <p class="">These days I’m focused on building products for OurPass Inc, mentoring and personal development. I mostly use Laravel, Vuejs, Tailwind CSS, Nuxtjs, Quasar Framework and Inertiajs. Working in a fast-paced industry made me enjoy learning. It also make me strive to be better at life in general.</p>
+                <p class="">When I’m not writing code, I usually take pleasure walks, play video games, hang out with friends, read tech blog posts or learn a new concept  about Vuejs/Laravel.</p>
+
+            </div>
+
+            
             <div class="container mx-auto">
                 <div class="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 mt-8 mb-8">
                     <div class="flex justify-center">

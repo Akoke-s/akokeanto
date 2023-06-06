@@ -8,7 +8,7 @@
                 Get in touch
             </p>
             <p class="mx-auto mt-4 text-sm max-w-2xl text-center leading-leading text-gray-800">
-                Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
+                <!-- Although I’m not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you! -->
             </p>
             <button @click="$router.push({'name': 'contact'})" class="flex mx-auto mt-4 px-2 py-2 bg-white border border-blue-700 rounded-lg text-blue-700 cursor-pointer">Say hello</button>
         </div>
