@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "akokeanto",
   "private": true,
   "scripts": {
     "build": "nuxt build",
