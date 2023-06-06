@@ -1,15 +1,8 @@
 <script setup>
 import visitLink from '../shared/svgs/visitLink.vue';
 import { ref } from 'vue';
-// import projectsData from '../../projects/projects.json'
-// import { useRoute } from 'vue-router';
 import localforage from 'localforage';
-// const route = useRoute()
-
-// console.log("route: " + route.meta.projects)
-// const projects = ref([])
 const newProjects = ref([])
-// projects.value = projectsData?.projects
 
 const getProjects = async () => {
     try {

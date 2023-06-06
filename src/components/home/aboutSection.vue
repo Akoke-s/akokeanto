@@ -18,10 +18,10 @@ getAboutData()
 <template>
     <div class="bg-blue-700 mb-6" id="about">
         <div class="text-white mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
-            <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-4xl text-white">
-                About Me
+            <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-white text-2xl">
+                Hello, I am Anto. Nice meeting you.
             </p>
-            <div class="mx-auto mt-4 max-w-7xl text-center leading-leading text-white leading-7">
+            <div class="mx-auto mt-4 max-w-7xl text-center leading-leading text-white leading-7 mt-8">
                 <p class="">
                     Back in 2015, I obtained a degree in Computer Science due to my curiosity about how the web works. Fast-forward to today and I’ve had the privilege of building web applications for start-ups including a Neo-global bank, a HR firm and an Ecommerce company.
                 </p>
