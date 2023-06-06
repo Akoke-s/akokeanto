@@ -9,7 +9,7 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
         </div>
 
         <div class="flex justify-center mt-20">
-            <img class="object-cover rounded-full h-80 w-80 grayscale hover:grayscale-0" src="port2.jpg" alt="akoke-anto" />
+            <img class="object-cover rounded-full h-80 w-80 grayscale" src="port2.jpg" alt="akoke-anto" />
         </div>
 
         <router-link 
