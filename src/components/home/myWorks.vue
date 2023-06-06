@@ -46,7 +46,7 @@ getProjects()
                             class="h-56 w-full object-cover"
                             v-else
                         />
-                        <div class="absolute h-full w-full px-4 bg-blue-950 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-5 group-hover:opacity-100 transition-all duration-300">
+                        <div class="absolute h-full w-full px-4 bg-blue-950 flex flex-col items-center justify-center -bottom-10 group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
                             <p class="text-lg text-white mb-4">
                                 {{ project?.title }}
                             </p>
@@ -57,7 +57,7 @@ getProjects()
                                 <p>
                                     <visitLink />
                                 </p>
-                                <p>View website</p>
+                                <p>View details</p>
                             </router-link>
                         </div>
                     </article>
