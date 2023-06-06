@@ -12,7 +12,7 @@ const date = new Date().getFullYear()
     <footer aria-label="Site Footer" class="bg-blue-700">
         <div class="mx-auto max-w-5xl px-4 py-16 sm:px-6 lg:px-8">
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-white">
-                Living, learning, & leveling up one day at a time.
+                Leveling up one day at a time.
             </p>
 
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
