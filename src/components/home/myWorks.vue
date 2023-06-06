@@ -1,20 +1,10 @@
 <script setup>
 import visitLink from '../shared/svgs/visitLink.vue';
+import projectsData from '@/resources/projects.json'
 import { ref } from 'vue';
-import localforage from 'localforage';
 const newProjects = ref([])
+newProjects.value = projectsData?.projects
 
-const getProjects = async () => {
-    try {
-        const value = await localforage.getItem('projects');
-        newProjects.value = value
-        
-    } catch (err) {
-        console.log(err);
-    }
-}
-
-getProjects()
 </script>
 
 <template>

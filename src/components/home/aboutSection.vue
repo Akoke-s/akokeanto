@@ -6,13 +6,8 @@ import { ref } from 'vue';
 
 const about = ref({})
 
-const getAboutData = () => {
-    const request = aboutData?.me 
-    console.log("request: " + request)
-    about.value = request
-}
+about.value = aboutData?.me
 
-getAboutData()
 </script>
 
 <template>
