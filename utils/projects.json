@@ -8,7 +8,7 @@
                 "Vuejs",
                 "Quasar Framework"
             ],
-            "featured_image": "assets/images/ourpass/ourpass1.png",
+            "featured_image": "/assets/images/ourpass/ourpass1.png",
             "link": "https://ourpass.co",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
@@ -26,7 +26,7 @@
                 "Vuejs",
                 "REST API"
             ],
-            "featured_image": "assets/images/rehkee/rehkeeio.png",
+            "featured_image": "/assets/images/rehkee/rehkeeio.png",
             "link": "https://rehkee.mrtstaff.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
@@ -43,7 +43,7 @@
                 "Vuejs",
                 "UI Design"
             ],
-            "featured_image": "assets/images/radah/main.png",
+            "featured_image": "/assets/images/radah/main.png",
             "link": "https://test.radahtech.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
@@ -60,7 +60,7 @@
                 "Nuxtjs",
                 "UI Design"
             ],
-            "featured_image": "assets/images/coren/coren1.png",
+            "featured_image": "/assets/images/coren/coren1.png",
             "link": null,
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
@@ -76,7 +76,7 @@
             "stack": [
                 "Laravel"
             ],
-            "featured_image": "assets/images/efwaste/efwaste.png",
+            "featured_image": "/assets/images/efwaste/efwaste.png",
             "link": "https://efwaste.com",
             "images": [
                 "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
