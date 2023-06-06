@@ -1,7 +1,7 @@
 <script setup>
-import codeSvg from '../shared/svgs/codeSvg.vue';
-import bookSvg from '../shared/svgs/bookSvg.vue';
-import aboutData from '@/resources/about.json';
+import codeSvg from '@/components/shared/svgs/codeSvg.vue';
+import bookSvg from '@/components/shared/svgs/bookSvg.vue';
+import aboutData from '@/utils/about.json';
 import { ref } from 'vue';
 
 const about = ref({})

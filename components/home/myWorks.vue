@@ -1,6 +1,6 @@
 <script setup>
-import visitLink from '../shared/svgs/visitLink.vue';
-import projectsData from '@/resources/projects.json'
+import visitLink from '@/components/shared/svgs/visitLink.vue';
+import projectsData from '@/utils/projects.json'
 import { ref } from 'vue';
 const newProjects = ref([])
 newProjects.value = projectsData?.projects
@@ -33,7 +33,7 @@ newProjects.value = projectsData?.projects
                             <p class="text-lg text-white mb-4">
                                 {{ project?.title }}
                             </p>
-                            <router-link 
+                            <nuxt-link 
                                 :to="`/details/${project.slug}`" 
                                 class="border border-blue-700 bg-transparent text-white py-2 px-5 rounded-lg cursor-pointer flex items-center text-center gap-2"
                             >
@@ -41,7 +41,7 @@ newProjects.value = projectsData?.projects
                                     <visitLink />
                                 </p>
                                 <p>View details</p>
-                            </router-link>
+                            </nuxt-link>
                         </div>
                     </article>
                 </div>

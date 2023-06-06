@@ -1,4 +1,4 @@
-<!-- <script setup>
+<script setup>
 import topBanner from '@/components/home/topBanner.vue';
 import aboutSection from '@/components/home/aboutSection.vue';
 import myWorks from '@/components/home/myWorks.vue';
@@ -17,11 +17,5 @@ import contactArea from '@/components/home/contactArea.vue';
             <myExperiences />
         </div>
         <contactArea />
-    </div>
-</template> -->
-
-<template>
-    <div>
-        
     </div>
 </template>

@@ -1,0 +1,108 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title": "OurPass Inc.",
+            "color": "bg-emerald-400",
+            "stack": [
+                "Vuejs",
+                "Quasar Framework"
+            ],
+            "featured_image": "assets/images/ourpass/ourpass1.png",
+            "link": "https://ourpass.co",
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943007/portfolio/ourpass_qp9ckr.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943009/portfolio/ourpass1_ugb6qx.png"
+            ],
+            "description": "",
+            "slug": "get-ourpass"
+        },
+        {
+            "id": 2,
+            "title": "Rehkee io",
+            "color": "bg-orange-500",
+            "stack": [
+                "Laravel",
+                "Vuejs",
+                "REST API"
+            ],
+            "featured_image": "assets/images/rehkee/rehkeeio.png",
+            "link": "https://rehkee.mrtstaff.com",
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943080/portfolio/rehkee_f2qjam.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943078/portfolio/rehkeeio_zde38d.png"
+            ],
+            "description": "",
+            "slug": "rehkee"
+        },
+        {
+            "id": 3,
+            "title": "Radah Tech",
+            "color": "bg-gray-950",
+            "stack": [
+                "Vuejs",
+                "UI Design"
+            ],
+            "featured_image": "assets/images/radah/main.png",
+            "link": "https://test.radahtech.com",
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah_bzescs.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684943046/portfolio/radah1_qdvvvq.png"
+            ],
+            "description": "",
+            "slug": "radah-tech"
+        },
+        {
+            "id": 4,
+            "title": "Council for the Regulation Of Engineering in Nigeria",
+            "color": "bg-green-600",
+            "stack": [
+                "Nuxtjs",
+                "UI Design"
+            ],
+            "featured_image": "assets/images/coren/coren1.png",
+            "link": null,
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942922/portfolio/coren1_hevgb5.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942919/portfolio/coren2_eyxoqf.png"
+            ],
+            "description": "",
+            "slug": "council-for-the-regulation-of-engineering-in-nigeria"
+        },
+        {
+            "id": 5,
+            "title": "Ef Waste",
+            "color": "bg-amber-700",
+            "stack": [
+                "Laravel"
+            ],
+            "featured_image": "assets/images/efwaste/efwaste.png",
+            "link": "https://efwaste.com",
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942967/portfolio/efwaste_u1xywt.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1684942959/portfolio/efwaste1_tketrg.png"
+            ],
+            "description": "",
+            "slug": "ef-waste"
+        },
+        {
+            "id": 6,
+            "title": "Habi Clothiers",
+            "color": "bg-white",
+            "stack": [
+                "Laravel",
+                "Vuejs",
+                "REST API"
+            ],
+            "featured_image": "assets/images/habi/main.png",
+            "link": null,
+            "images": [
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053905/portfolio/Screenshot_2023-06-06_at_13.16.21_qrsjdm.png",
+                "https://res.cloudinary.com/dq7mvmlic/image/upload/v1686053903/portfolio/Screenshot_2023-06-06_at_13.16.01_febhbb.png"
+            ],
+            "description": "",
+            "slug": "habi-clothiers"
+        }
+    ]
+}
+

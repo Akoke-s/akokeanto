@@ -9,16 +9,15 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
         </div>
 
         <div class="flex justify-center mt-20">
-            <img class="object-cover rounded-full h-80 w-80 grayscale" src="port2.jpg" alt="akoke-anto" />
+            <img class="object-cover rounded-full h-80 w-80 grayscale" src="@/assets/port2.jpg" alt="akoke-anto" />
         </div>
 
-        <router-link 
-            to="/#about" 
-            v-scroll-to="'#about'" 
+        <nuxt-link 
+            to="/#about"
             class="flex justify-center xs:hidden mt-12 lg:mt-16 md:mt-12"
         >
             <doubleChevron class="border border-gray-700 cursor-pointer rounded-xl scroll-down-arrows" />
-        </router-link>
+        </nuxt-link>
     </div>
 </template>
 

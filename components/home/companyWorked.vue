@@ -16,28 +16,28 @@
                 <li class="media-images__item grayscale hover:grayscale-0">
                     <img 
                         class="media-images__image h-16" 
-                        src="../../assets/images/logos/ef.png" 
+                        src="@/assets/images/logos/ef.png" 
                         alt="ef-network-ltd-logo" 
                     />
                 </li>
                 <li class="media-images__item grayscale hover:grayscale-0">
                     <img 
                         class="media-images__image h-16" 
-                        src="../../assets/images/logos/ourpass.png" 
+                        src="@/assets/images/logos/ourpass.png" 
                         alt="ourpass-inc-logo" 
                     />
                 </li>
                 <li class="media-images__item grayscale hover:grayscale-0">
                     <img 
                         class="media-images__image h-16" 
-                        src="../../assets/images/logos/invercross.png" 
+                        src="@/assets/images/logos/invercross.png" 
                         alt="invercross-business-solutions-logo" 
                     />
                 </li>
                 <li class="media-images__item grayscale hover:grayscale-0">
                     <img 
                         class="media-images__image h-16" 
-                        src="../../assets/images/logos/tribesq.png"
+                        src="@/assets/images/logos/tribesq.png"
                         alt="tribesquare-logo" 
                     />
                 </li>

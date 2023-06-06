@@ -1,7 +1,7 @@
 <script setup>
-import AppAccordion from '../shared/AppAccordion.vue';
-import experiencesData from '../../resources/experiences.json'
-import AccordionContent from '../shared/AccordionContent.vue';
+import AppAccordion from '@/components/shared/AppAccordion.vue';
+import experiencesData from '@/utils/experiences.json'
+import AccordionContent from '@/components/shared/AccordionContent.vue';
 
 
 </script>
