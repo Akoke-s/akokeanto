@@ -2,7 +2,7 @@ import VueGtag, { trackRouter } from 'vue-gtag-next'
 export default defineNuxtPlugin((nuxtApp) => {
   nuxtApp.vueApp.use(VueGtag, {
     property: {
-      id: 'GOOGLE_MEASUREMENT_ID'
+      id: process.env.GOOGLE_MEASUREMENT_ID
     }
   })
   trackRouter(useRouter())

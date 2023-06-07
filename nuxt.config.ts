@@ -2,6 +2,7 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
+  
   app: {
     head: {
       title: process.env.npm_package_name || '',
@@ -14,7 +15,7 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/png', sizes: '16x16', href: 'https://www.gravatar.com/avatar/a85051d369a9ee1131d28d56ec04fc17' },
         { rel: 'icon', type: 'image/png', sizes: '96x96', href: 'https://www.gravatar.com/avatar/a85051d369a9ee1131d28d56ec04fc17' }
       ]
-    }
+    },
   },
   postcss: {
     plugins: {
