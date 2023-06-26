@@ -54,9 +54,8 @@ const date = new Date().getFullYear()
 
                 <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
-                        href="https://github.com/antoHero"
+                        href="mailto:antoakoke@gmail.com"
                         rel="noreferrer"
-                        target="_blank"
                         class="text-gray-700 transition hover:text-gray-700/75"
                     >
                     <span class="sr-only">Email</span>
