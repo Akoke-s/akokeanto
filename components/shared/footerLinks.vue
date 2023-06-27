@@ -18,6 +18,16 @@ const date = new Date().getFullYear()
             <ul class="mt-12 flex justify-center gap-6 md:gap-8">
                 <li class="border border-white rounded-full p-2 hover:bg-white">
                     <a
+                        href="mailto:antoakoke@gmail.com"
+                        rel="noreferrer"
+                        class="text-gray-700 transition hover:text-gray-700/75"
+                    >
+                    <span class="sr-only">Email</span>
+                        <mailSvg class="text-white hover:text-blue-600" />
+                    </a>
+                </li>
+                <li class="border border-white rounded-full p-2 hover:bg-white">
+                    <a
                         href="https://twitter.com/Iam_Veecktor"
                         rel="noreferrer"
                         target="_blank"
@@ -51,21 +61,10 @@ const date = new Date().getFullYear()
                         <linkedinSvg class="text-white hover:text-blue-600" />
                     </a>
                 </li>
-
-                <li class="border border-white rounded-full p-2 hover:bg-white">
-                    <a
-                        href="mailto:antoakoke@gmail.com"
-                        rel="noreferrer"
-                        class="text-gray-700 transition hover:text-gray-700/75"
-                    >
-                    <span class="sr-only">Email</span>
-                        <mailSvg class="text-white hover:text-blue-600" />
-                    </a>
-                </li>
             </ul>
 
             <p class="mx-auto mt-6 max-w-md text-center leading-relaxed text-white">
-                &copy; {{ date }}, antoakoke.com 
+                &copy; {{ date }}, All Rights Reserved. Akoke Anto
             </p>
         </div>
     </footer>
