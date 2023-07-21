@@ -52,7 +52,7 @@ about.value = aboutData?.me
                             </h3>
 
                             <p class="mt-4 text-xs text-gray-800">
-                                PHP, Ruby*, Javascript, Node*
+                                PHP, Ruby**, Javascript, Node*
                             </p>
 
                             <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
@@ -60,7 +60,7 @@ about.value = aboutData?.me
                             </h3>
 
                             <p class="mt-4 text-xs text-gray-800">
-                                Laravel, Vue, Nuxt, React**, Inertia*, Alpine*, Lumen, Ruby on Rails**
+                                Laravel, Vue, Nuxt, React*, Inertia*, Alpine*, Lumen, Ruby on Rails**
                             </p>
 
                             <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
@@ -69,6 +69,10 @@ about.value = aboutData?.me
 
                             <p class="mt-4 text-xs text-gray-800">
                                 RESTful, GraphQL
+                            </p>
+
+                            <p class="mt-8 text-xs text-gray-800" style="font-size: 10px;">
+                                Items marked with * are tools I've used to build stuff that never made it to production. However, I am totally comfortable working with them! While items marked with ** are tools I am currently learning to use
                             </p>
                         </a>
                     </div>
