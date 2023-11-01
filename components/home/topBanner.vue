@@ -9,10 +9,10 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
         </div>
 
         <div class="flex sm:flex md:flex sm:justify-center md:justify-center sm:mx-auto md:mx-auto justify-center mt-16 md:mt-32 sm:mt-32 xl:mt-32 banner-img">
-            <img class="object-cover rounded-full h-20 w-20 sm:h-80 sm:w-80 lg:h-80 lg:w-80 grayscale" src="@/assets/avi.jpg" alt="akoke-anto" />
+            <img class="object-cover rounded-full h-20 w-20 sm:h-80 sm:w-80 lg:h-80 lg:w-80 grayscale" src="https://res.cloudinary.com/dq7mvmlic/image/upload/v1689978742/a_4_suqckg.jpg" alt="akoke-anto" />
         </div>
 
-        <nuxt-link 
+        <nuxt-link
             to="/#about"
             class="flex justify-center mt-36 sm:mt-72 lg:mt-82 md:mt-72 xl:mt-52 chevron"
         >
