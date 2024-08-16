@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  
+  modules: ['@nuxt/content', "@nuxt/image"],
+  content: {
+    api: {
+      baseURL: '/api/_content'
+    }
+  },
   app: {
     head: {
       title: process.env.npm_package_name || '',

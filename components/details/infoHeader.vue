@@ -2,14 +2,14 @@
 import { inject } from 'vue'
 
 const project = inject('project')
-
+const props = defineProps(['title'])
 </script>
 <template>
     <p class="mt-4 text-xs">
         Web Development
     </p>
     <p class="mt-4 d text-2xl uppercase project-title">
-        {{ project.title }}
+        {{ props.title }}
     </p>
 </template>
 

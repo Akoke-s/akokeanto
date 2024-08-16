@@ -9,7 +9,7 @@ import doubleChevron from '../shared/svgs/doubleChevron.vue';
         </div>
 
         <div class="flex sm:flex md:flex sm:justify-center md:justify-center sm:mx-auto md:mx-auto justify-center mt-16 md:mt-32 sm:mt-32 xl:mt-32 banner-img">
-            <img class="object-cover rounded-full h-20 w-20 sm:h-80 sm:w-80 lg:h-80 lg:w-80 grayscale" src="https://res.cloudinary.com/dq7mvmlic/image/upload/v1689978742/a_4_suqckg.jpg" alt="akoke-anto" />
+            <NuxtImg loading="lazy" class="object-cover rounded-full h-20 w-20 sm:h-80 sm:w-80 lg:h-80 lg:w-80 grayscale" src="https://res.cloudinary.com/dq7mvmlic/image/upload/v1689978742/a_4_suqckg.jpg" alt="akoke-anto" />
         </div>
 
         <nuxt-link

@@ -1,27 +1,43 @@
 <script setup>
-import visitLink from '@/components/shared/svgs/visitLink.vue';
-import projectsData from '@/utils/projects.json'
 import { ref } from 'vue';
-const newProjects = ref([])
-newProjects.value = projectsData?.projects
-
+import visitLink from '@/components/shared/svgs/visitLink.vue';
+import pauseIcon from '@/components/shared/svgs/pauseSvg.vue';
+// import projectsData from '@/utils/projects.json'
+// const newProjects = ref([])
+const works = ref([])
+// newProjects.value = projectsData?.projects
+const { data, pending, error } = await useAsyncData('', () => queryContent().find())
+works.value = data.value
 </script>
+
 
 <template>
     <div class="bg-white mb-6" id="works">
-        <div class="mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8">
+        <section class="bg-white mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8" v-if="pending">
+            <div class="container px-6 py-10 animate-pulse">
+                <h1 class="w-48 h-2 mx-auto bg-gray-200 rounded-lg dark:bg-gray-700"></h1>
+
+                <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 sm:grid-cols-2 lg:grid-cols-3">
+                    <div class="w-full ">
+                        <div class="w-full h-64 bg-gray-300 rounded-lg md:h-72 dark:bg-gray-600"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="mx-auto max-w-5xl px-4 py-4 sm:px-6 lg:px-8" v-else>
             <p class="mx-auto mt-4 max-w-md text-center leading-relaxed text-4xl">
                 My Works
             </p>
 
             <div class="grid gap-4 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-8">
-                <div class="h-fit group flex justify-center" v-for="(project, idx) in newProjects" :key="idx">
+                <div class="h-fit group flex justify-center" v-for="(project, idx) in works" :key="idx">
+                    <!-- {{ project }} -->
                     <article class="relative overflow-hidden rounded-lg shadow transition hover:shadow-lg">
                         <img
                             :alt="project.slug"
-                            :src="project?.featured_image"
+                            :src="project?.featuredImage"
                             class="h-56 w-full object-cover"
-                            v-if="project?.featured_image != null"
+                            v-if="project?.featuredImage != null"
                         />
                         <img
                             :alt="project.slug"
@@ -33,15 +49,24 @@ newProjects.value = projectsData?.projects
                             <p class="text-lg text-white mb-4">
                                 {{ project?.title }}
                             </p>
-                            <nuxt-link 
-                                :to="`/details/${project.slug}`" 
+                            <a
+                                :href="`${project.link}`"
                                 class="border border-blue-700 bg-transparent text-white py-2 px-5 rounded-lg cursor-pointer flex items-center text-center gap-2"
+                                v-if="project.status === 'active'"
+                                target="_blank"
                             >
                                 <p>
                                     <visitLink />
                                 </p>
                                 <p>View details</p>
-                            </nuxt-link>
+                            </a>
+                            <div
+                                class="border border-red-200 bg-red-200 text-white py-2 px-5 rounded-lg cursor-pointer flex items-center text-center gap-2"
+                                v-else
+                            >
+                                <pauseIcon />
+                                <p>On hold</p>
+                            </div>
                         </div>
                     </article>
                 </div>
