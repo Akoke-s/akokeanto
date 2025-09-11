@@ -10,12 +10,12 @@ import contactArea from '@/components/home/contactArea.vue';
 <template>
     <div>
         <topBanner />
-        <aboutSection />
+        <!-- <aboutSection />
         <myWorks />
         <companyWorked />
         <div class="bg-blue-700 mb-6 pb-12" id="experience">
             <myExperiences />
-        </div>
-        <contactArea />
+        </div> -->
+        <!-- <contactArea /> -->
     </div>
 </template>
