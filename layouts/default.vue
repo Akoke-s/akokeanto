@@ -1,14 +1,16 @@
 <script setup>
 import headerLinks from '@/components/shared/headerLinks.vue';
 import footerLinks from '@/components/shared/footerLinks.vue';
-
 </script>
+
 <template>
-    <div>
-      <headerLinks />
+  <div class="min-h-screen flex flex-col overflow-x-hidden">
+    <headerLinks />
+    <main class="flex-1 pt-20 overflow-x-hidden">
       <slot />
-      <footerLinks />
-    </div>
+    </main>
+    <!-- <footerLinks /> -->
+  </div>
 </template>
 
 <style>
@@ -16,6 +18,12 @@ import footerLinks from '@/components/shared/footerLinks.vue';
 
 body {
   font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
 }
 </style>
-  

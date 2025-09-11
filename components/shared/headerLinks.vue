@@ -1,58 +1,45 @@
-
 <template>
-    <header aria-label="Site Header" class="flex items-center justify-center bg-white sticky top-0 z-30 " @click.self="openMenu = false">
-        <nav class="bg-white shadow-sm sticky flex items-center justify-center top-0 z-30 mx-auto max-w-2xl rounded-full mt-8 border border-blue-100">
-            <div class="px-2 sm:px-6 lg:px-8">
-                <div class="relative flex py-4 items-center justify-between">
-                    <div class="flex flex-1 items-center justify-center">
-                        <div class="sm:block">
-                            <div class="flex space-x-0 md:space-x-4">
-                                <nuxt-link
-                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
-                                    to="/">
-                                    Home
-                                </nuxt-link>
-                                <nuxt-link
-                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
-                                    to="/about">
-                                    About
-                                </nuxt-link>
-                                <nuxt-link
-                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
-                                    to="/projects">
-                                    Projects
-                                </nuxt-link>
-                                <nuxt-link
-                                    class="mx-2 text-gray-600 px-3 py-2 hover:text-gray-800 rounded-md text-sm font-medium flex text-center items-center"
-                                    to="/#experience">
-                                    Contact
-                                </nuxt-link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </header>
+  <header
+    aria-label="Site Header"
+    class="fixed top-0 left-0 right-0 z-30 bg-white/95 backdrop-blur-sm"
+  >
+    <div class="flex items-center justify-center py-4 px-4">
+      <nav
+        class="bg-white shadow-lg rounded-full border border-blue-100 px-2 py-2 max-w-fit"
+      >
+        <div class="flex flex-wrap items-center justify-center gap-1 sm:gap-2">
+          <nuxt-link
+            class="text-gray-600 px-2 sm:px-3 py-2 hover:text-gray-800 hover:bg-gray-50 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap"
+            to="/"
+          >
+            Home
+          </nuxt-link>
+          <nuxt-link
+            class="text-gray-600 px-2 sm:px-3 py-2 hover:text-gray-800 hover:bg-gray-50 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap"
+            to="/about"
+          >
+            About
+          </nuxt-link>
+          <nuxt-link
+            class="text-gray-600 px-2 sm:px-3 py-2 hover:text-gray-800 hover:bg-gray-50 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap"
+            to="/projects"
+          >
+            Projects
+          </nuxt-link>
+          <nuxt-link
+            class="text-gray-600 px-2 sm:px-3 py-2 hover:text-gray-800 hover:bg-gray-50 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap"
+            to="/blog"
+          >
+            Blog
+          </nuxt-link>
+          <nuxt-link
+            class="text-gray-600 px-2 sm:px-3 py-2 hover:text-gray-800 hover:bg-gray-50 rounded-full text-xs sm:text-sm font-medium transition-all duration-200 whitespace-nowrap"
+            to="/contact"
+          >
+            Contact
+          </nuxt-link>
+        </div>
+      </nav>
+    </div>
+  </header>
 </template>
-
-<script>
-export default {
-    data() {
-        return {
-            openMenu: ref(false)
-        }
-    },
-    created() {
-        this.$watch(
-            () => this.$route.hash,
-            (toHash, previousHash) => {
-                // react to route changes...
-                if (toHash !== previousHash) {
-                    this.openMenu = false
-                }
-            }
-        )
-    },
-}
-</script>
