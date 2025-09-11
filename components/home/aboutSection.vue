@@ -60,7 +60,7 @@ about.value = aboutData?.me
                             </h3>
 
                             <p class="mt-4 text-xs text-gray-800">
-                                Laravel, Vue, Nuxt, React*, Angular**, Inertia*, Alpine*, Lumen, Ruby on Rails**
+                                Laravel, Vue, Nuxt, React, Angular, Inertia, Alpine*, Lumen, Ruby on Rails**
                             </p>
 
                             <h3 class="mt-3 text-sm font-extrabold text-blue-600 sm:text-xl">
@@ -107,13 +107,13 @@ about.value = aboutData?.me
                             </h3>
 
                             <p class="mt-4 text-xs text-gray-800">
-                                1+ Year(s)
+                                3+ Year(s)
                             </p>
                             <p class="mt-4 text-xs text-gray-800">
-                                20+ Mentees
+                                30+ Mentees
                             </p>
                             <p class="mt-4 text-xs text-gray-800">
-                            1000+ Mentorship Hours.
+                                5000+ Mentorship Hours.
                             </p>
                         </a>
                     </div>

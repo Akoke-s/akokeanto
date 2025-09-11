@@ -19,6 +19,6 @@
     "vue-gtag-next": "^1.14.0"
   },
   "dependencies": {
-    "@nuxt/content": "^2.10.0"
+    "@nuxt/content": "^2.7.2"
   }
 }
