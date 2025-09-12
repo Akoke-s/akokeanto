@@ -111,15 +111,54 @@
           >
         </div>
         <p class="text-sm">
-          Heykara is a consumer service company that focuses on meeting the daily
-          needs and demands of the public. I worked majorly as a frontend
+          Heykara is a consumer service company that focuses on meeting the
+          daily needs and demands of the public. I worked majorly as a frontend
           developer, creating a mobile application with
-          <span class="font-bold">Angular.js</span> and internal their tools with
-          <span class="font-bold">Vue.js</span>.
+          <span class="font-bold">Angular.js</span> and internal their tools
+          with <span class="font-bold">Vue.js</span>.
         </p>
         <a
           class="text-xs font-medium inline-flex items-center"
           href="https://www.heykara.com/"
+        >
+          Visit website
+          <svg
+            class="h-4 w-4 ml-1"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="mb-5">
+        <h3 class="text-xl font-bold inline text-gray-700">
+          Yargote Foundation.
+        </h3>
+        <span class="text-sm font-medium text-gray-600"
+          >Lead Developer & Mentor - Volunteer</span
+        >
+        <div>
+          <span class="text-sm font-semibold text-gray-600"
+            >Abuja, Nigeria</span
+          >
+        </div>
+        <p class="text-sm">
+          Yargote Foundation is an NGO that seeks the development and
+          empowerment of the boy child to grow into men that would positively
+          influence the family, community, and the nation. I worked as the lead
+          developer building their website using
+          <span class="font-bold">Nuxt.js</span> and their admin CMS using
+          <span class="font-bold">Laravel/Filament</span>.
+        </p>
+        <a
+          class="text-xs font-medium inline-flex items-center"
+          href="https://www.yargotefoundation.org/"
         >
           Visit website
           <svg
@@ -180,7 +219,9 @@
           >
         </div>
         <p class="text-sm">
-          Buzza is an e-commerce platform that serves a lot of vendors and shoppers. I worked on the backend that powers both the web and mobile applications. I build the APIs using
+          Buzza is an e-commerce platform that serves a lot of vendors and
+          shoppers. I worked on the backend that powers both the web and mobile
+          applications. I build the APIs using
           <span class="font-bold">Laravel</span> and also integrated 3rd party
           services like <span class="font-bold">Stripe</span> and
           <span class="font-bold">Amazon S3</span>.
@@ -217,7 +258,9 @@
           >
         </div>
         <p class="text-sm">
-          MRT Benchmark Limited is a human resource firm. I worked as the lead developer, developing and maintaining the backend and frontend of their web application. I handled server setup,
+          MRT Benchmark Limited is a human resource firm. I worked as the lead
+          developer, developing and maintaining the backend and frontend of
+          their web application. I handled server setup,
           <span class="font-bold">CI/CD</span> with
           <span class="font-bold">GitHub</span> actions and also integrated 3rd
           party services like <span class="font-bold">AWS Rekognition</span>
@@ -284,8 +327,8 @@
 
           <div class="text-sm mb-5">
             <span class="font-bold">Laravel</span> is at the forefront of
-            everything I build, whether I'm building full-stack applications with
-            <span class="font-bold">Inertia.js</span> or
+            everything I build, whether I'm building full-stack applications
+            with <span class="font-bold">Inertia.js</span> or
             <span class="font-bold">APIs,</span> because it is stable, good for
             long-term projects, flexible to work with, and has an amazing
             community. I trust <span class="font-bold">Herd</span> for my PHP
@@ -299,11 +342,16 @@
           </div>
 
           <div class="text-sm mb-5">
-            I've read a couple of articles and some books that taught me a lot about system design. I'm still trying to learn domain-driven development.
+            I've read a couple of articles and some books that taught me a lot
+            about system design. I'm still trying to learn domain-driven
+            development.
           </div>
 
           <div class="text-sm mb-5">
-            Beyond looking at a dimly lit screen writing code, I also lead a small team of frontend developers, product designers, digital marketers, and designers to shape the future of education on our continent. And events too!!!
+            Beyond looking at a dimly lit screen writing code, I also lead a
+            small team of frontend developers, product designers, digital
+            marketers, and designers to shape the future of education on our
+            continent. And events too!!!
           </div>
 
           <div class="text-sm mb-5">
