@@ -7,6 +7,7 @@ import myExperiences from '@/components/home/myExperiences.vue';
 import contactArea from '@/components/home/contactArea.vue';
 </script>
 
+
 <template>
     <div>
         <topBanner />
