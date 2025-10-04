@@ -176,6 +176,78 @@
       </div>
 
       <div class="mb-5">
+        <h3 class="text-xl font-bold inline text-gray-700">
+          Scholarlite.
+        </h3>
+        <span class="text-sm font-medium text-gray-600"
+          >Full Stack Developer</span
+        >
+        <div>
+          <span class="text-sm font-semibold text-gray-600"
+            >Lagos, Nigeria</span
+          >
+        </div>
+        <p class="text-sm">
+          Scholarlite is an Ed-tech SaaS platform focused on providing educational services to schools. I worked as the Full Stack Developer
+          focused on building the tenant and central applications using 
+          <span class="font-bold">Laravel</span>, <span class="font-bold">Filament</span>, <span class="font-bold">Docker </span>, 
+          <span class="font-bold">React.js</span> managed by <span class="font-bold">Inertia.js</span> and payment integrations with <span class="font-bold">Paystack</span>.
+        </p>
+        <a
+          class="text-xs font-semibold inline-flex items-center"
+          href="https://scholarlite.com/"
+        >
+          Visit website
+          <svg
+            class="h-4 w-4 ml-1"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="mb-5">
+        <h3 class="text-xl font-bold inline text-gray-700">OurPass Inc.</h3>
+        <span class="text-sm font-medium text-gray-600"
+          >Backend Developer</span
+        >
+        <div>
+          <span class="text-sm font-semibold text-gray-600"
+            >Lagos, Nigeria</span
+          >
+        </div>
+        <p class="text-sm">
+          OurPass, a microfinance bank empowering entrepreneurs and individuals
+          with all the tools they need to start, grow and scale. I was briefly a part of
+          the backend team that focused on maintaining their business, payments, notifications,and user services using
+          <span class="font-bold">Node.js</span>, and managing communications between these services using <span class="font-bold">gRPC</span>.
+        </p>
+        <a
+          class="text-xs font-semibold inline-flex items-center"
+          href="https://www.ourpass.co/"
+        >
+          Visit website
+          <svg
+            class="h-4 w-4 ml-1"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </a>
+      </div>
+
+      <div class="mb-5">
         <h3 class="text-xl font-bold inline text-gray-700">OurPass Inc.</h3>
         <span class="text-sm font-medium text-gray-600"
           >Frontend Developer</span
@@ -186,13 +258,12 @@
           >
         </div>
         <p class="text-sm">
-          OurPass, a microfinance bank empowering entrepreneurs and individuals
-          with all the tools they need to start, grow and scale. I was part of
+          I was part of
           the frontend team that focused on building the web application with
           <span class="font-bold">Vue.js</span>.
         </p>
         <a
-          class="text-xs font-medium inline-flex items-center"
+          class="text-xs font-semibold inline-flex items-center"
           href="https://www.ourpass.co/"
         >
           Visit website
@@ -227,7 +298,7 @@
           <span class="font-bold">Amazon S3</span>.
         </p>
         <a
-          class="text-xs font-medium inline-flex items-center"
+          class="text-xs font-semibold inline-flex items-center"
           href="https://www.ourpass.co/"
         >
           Visit website
@@ -289,7 +360,7 @@
           <span class="font-bold">Vue.js</span>.
         </p>
         <a
-          class="text-xs font-medium inline-flex items-center"
+          class="text-xs font-semibold inline-flex items-center"
           href="https://eftechnology.net/"
         >
           Visit website
@@ -338,7 +409,7 @@
             <span class="font-bold">Precognition</span> for live validation,
             <span class="font-bold">Nightwatch</span> for monitoring,
             <span class="font-bold">Pest or PHPUnit</span> for test driven
-            design and also leverage queues, notifications, and much more.
+            design and also leverage queues, notifications, and much more. I also worked with teams that build with <span class="font-bold">Node.js</span>, so I'm open to any related roles/projects.
           </div>
 
           <div class="text-sm mb-5">
