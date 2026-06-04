@@ -19,14 +19,14 @@ import doubleChevron from "../shared/svgs/doubleChevron.vue";
     </div>
 
     <!-- Image Section -->
-    <div class="flex justify-center mt-8 sm:mt-16 md:mt-20 flex-shrink-0">
+    <!-- <div class="flex justify-center mt-8 sm:mt-16 md:mt-20 flex-shrink-0">
       <NuxtImg
         loading="lazy"
         class="object-cover rounded-full h-32 w-32 sm:h-48 sm:w-48 lg:h-80 lg:w-80 grayscale hover:grayscale-0 transition-all duration-300"
         src="/avi.png"
         alt="akoke-anto"
       />
-    </div>
+    </div> -->
 
     <!-- Spacer to push social links to bottom -->
     <div class="flex-grow min-h-6"></div>
