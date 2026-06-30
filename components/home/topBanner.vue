@@ -11,7 +11,7 @@ import doubleChevron from "../shared/svgs/doubleChevron.vue";
       <h1
         class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight"
       >
-        Full Stack Developer & Mentor
+      Senior Full-Stack Engineer, Mentor, Strategy & High-Volume Systems
       </h1>
       <p class="mt-4 text-gray-800 text-sm sm:text-base max-w-md mx-auto">
         I enjoy what I do and create elegantly simple things using code.

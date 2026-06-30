@@ -220,23 +220,7 @@
           services like <span class="font-bold">Stripe</span> and
           <span class="font-bold">Amazon S3</span>.
         </p>
-        <a
-          class="text-xs font-semibold inline-flex items-center"
-          href="https://www.ourpass.co/"
-        >
-          Visit website
-          <svg
-            class="h-4 w-4 ml-1"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-          </svg>
-        </a>
+        
       </div>
 
       <div class="mb-5">
