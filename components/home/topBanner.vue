@@ -23,7 +23,7 @@ import doubleChevron from "../shared/svgs/doubleChevron.vue";
       <NuxtImg
         loading="lazy"
         class="object-cover rounded-full h-32 w-32 sm:h-48 sm:w-48 lg:h-80 lg:w-80 grayscale hover:grayscale-0 transition-all duration-300"
-        src="/avi.png"
+        src="/avi.jpeg"
         alt="akoke-anto"
       />
     </div> -->

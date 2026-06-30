@@ -19,7 +19,7 @@ export default defineComponent({
                 { hid: 'og:title', name: "og:title", content: "Akoke Victor Anto - Senior Full-Stack Engineer | Mentorship, Strategy & High-Volume Systems"},
                 { hid: 'og-type', property: 'og:type', content: 'website' },
                 { hid: 'og:url', name: "og:url", content: "https://akokeanto.vercel.app/"},
-                { hid: 'og:image', name: "og:image", content: "/avi.png"},
+                { hid: 'og:image', name: "og:image", content: "/avi.jpeg"},
                 { hid: 'og:description', name: "og:description", content: "Hi, my name is Akoke Victor Anto. I\'m a Senior Full-Stack Engineer | Mentorship, Strategy & High-Volume Systems."},
             ]
         })
