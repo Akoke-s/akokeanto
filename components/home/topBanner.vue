@@ -6,7 +6,6 @@ import doubleChevron from "../shared/svgs/doubleChevron.vue";
   <div
     class="flex flex-col h-[calc(100vh-5rem)] overflow-hidden px-4 sm:px-6 py-8 sm:py-16 text-center"
   >
-    <!-- Header Section -->
     <div class="max-w-xl mx-auto flex-shrink-0">
       <h1
         class="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight"
@@ -18,20 +17,9 @@ import doubleChevron from "../shared/svgs/doubleChevron.vue";
       </p>
     </div>
 
-    <!-- Image Section -->
-    <!-- <div class="flex justify-center mt-8 sm:mt-16 md:mt-20 flex-shrink-0">
-      <NuxtImg
-        loading="lazy"
-        class="object-cover rounded-full h-32 w-32 sm:h-48 sm:w-48 lg:h-80 lg:w-80 grayscale hover:grayscale-0 transition-all duration-300"
-        src="/avi.jpeg"
-        alt="akoke-anto"
-      />
-    </div> -->
-
-    <!-- Spacer to push social links to bottom -->
     <div class="flex-grow min-h-6"></div>
 
-    <!-- Social Links Section -->
+
     <div class="flex justify-center py-4 flex-shrink-0">
       <ul class="flex flex-wrap justify-center gap-4 sm:gap-6">
         <li>
